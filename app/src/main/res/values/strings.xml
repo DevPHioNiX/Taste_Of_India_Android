@@ -1,0 +1,274 @@
+<resources>
+    <string name="app_name">Taste Of India</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="error_warning">Error Warning</string>
+    <string name="warning">Warning</string>
+    <string name="success">Success</string>
+    <string name="email">Email</string>
+
+    <string name="logouts">Are you sure you want to Signout ?</string>
+    <string name="new_page">Are you sure you want to Continue ?</string>
+    <string name="dialog_permission_title">Grant Permissions</string>
+    <string name="dialog_permission_message">This app needs permission to use this feature. You can grant them in app settings.</string>
+    <string name="go_to_settings">GOTO SETTINGS</string>
+    <string name="take_new_photo">Take a new photo</string>
+    <string name="select_from_photo">Select New Photo</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="copyright">© 2022 Test of India. All rights reserved</string>
+
+    <string name="nointernet">No Internet Connection...</string>
+    <string name="internet"> Internet Connection...</string>
+    <string name="plz_wait">Please Wait...</string>
+    <string name="backtoexit">Please click BACK again to exit</string>
+    <string name="check_internet">Please check internet connection...</string>
+    <string name="nationality">Nationality</string>
+    <string name="resident">Resident</string>
+    <string name="tourist">Tourist</string>
+    <string name="are_you_visiting_with_a_tour_operation">ARE YOU VISITING WITH A TOUR OPERATION?</string>
+    <string name="yes">Yes</string>
+    <string name="ok1">Ok</string>
+    <string name="no">No</string>
+    <string name="_36_45">36 - 45</string>
+    <string name="_25_35">25 - 35</string>
+    <string name="_13_24">13 - 24</string>
+    <string name="_0_12">0 - 12</string>
+    <string name="age_group">Age Group</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="emirates">Emirates</string>
+    <string name="abu_dhabi">Abu Dhabi</string>
+    <string name="dubai">Dubai</string>
+    <string name="i_hereby_acknowledge_that_i_do_not_have_covid_19_nor_do_i_suffer_from_any_other_chronic_conditions">I, hereby acknowledge that I do not have (Covid -19), nor do I suffer from any other chronic conditions.</string>
+    <string name="ticket_generator">TICKET \nGENERATOR</string>
+    <string name="ticket_scanner">TICKET \nSCANNER</string>
+    <string name="enter_your_email_id">Enter your Email Id</string>
+    <string name="enter_your_valid_email_id">Enter your valid Email Id</string>
+    <string name="please_choose_the_check_point">Please Choose the Check point</string>
+    <string name="show_your_qr_code_here">Show your QR code Here</string>
+    <string name="print_ticket">PRINT TICKET</string>
+    <string name="home">HOME</string>
+    <string name="visit_date">Visit Date</string>
+    <string name="are_you_resident_or_tourist">Are you a Resident or Tourist?</string>
+    <string name="submit_to_get_your_access_pass">SUBMIT TO GET YOUR ACCESS PASS</string>
+    <string name="loading">Loading</string>
+    <string name="access_pass_reference_number">Access Pass Reference Number</string>
+    <string name="scan_your_qr_code_or_enter_access_pass_reference_number">Scan your QR code or Enter Access pass reference number</string>
+    <string name="something_went_wrong">Something went wrong..!!!</string>
+    <string name="you_will_be_asked_to_present_your_ticket_several_times_during_visit">You will be asked to present your ticket several times during visit</string>
+    <string name="please_enter_password">Please enter Password</string>
+    <string name="password">****************</string>
+    <string name="submit">SUBMIT</string>
+    <string name="select_option">Select Option</string>
+    <string name="close">Close</string>
+    <string name="continue_">CONTINUE</string>
+    <string name="please_select_a_nationality">Please select a nationality</string>
+    <string name="connected">Connected</string>
+    <string name="the_screen_will_be_automatically_refreshed_in_10_seconds">The screen will be automatically refreshed in 10 seconds</string>
+    <string name="case_id">Case ID:</string>
+
+    <!-- VerificationTypeId ==> 1 -->
+    <string name="TypeId_1_Question1">Address Traced</string>
+    <string name="TypeId_1_Question2">Name Plate Seen</string>
+    <string name="TypeId_1_Question3">Met TPC Neighbour 1</string>
+    <string name="TypeId_1_Question4">Met TPC Neighbour 1 Designation</string>
+    <string name="TypeId_1_Question5">Met TPC Neighbour 2</string>
+    <string name="TypeId_1_Question6">Met TPC Neighbour 2 Designation</string>
+    <string name="TypeId_1_Question7">Address Exist Localty</string>
+    <string name="TypeId_1_Question8">Met Persone Name</string>
+    <string name="TypeId_1_Question9">Relation with Applicant</string>
+    <string name="TypeId_1_Question10">Ownership of house Parents</string>
+    <string name="TypeId_1_Question11">No of Years at Present Address</string>
+    <string name="TypeId_1_Question12">Applicant DOB</string>
+    <string name="TypeId_1_Question13">Qualification of Applicant</string>
+    <string name="TypeId_1_Question14">Co-Applicant DOB</string>
+    <string name="TypeId_1_Question15">Qualification of Co-applicant</string>
+    <string name="TypeId_1_Question16">Marital Status</string>
+    <string name="TypeId_1_Question17">Spouse Earning</string>
+    <string name="TypeId_1_Question18">Total Family Member</string>
+    <string name="TypeId_1_Question19">Earning Member</string>
+    <string name="TypeId_1_Question20">Locality of house</string>
+    <string name="TypeId_1_Question21">Type of House</string>
+    <string name="TypeId_1_Question22">House Area Approx Sqft.</string>
+    <string name="TypeId_1_Question23">Assets seen Electronics</string>
+    <string name="TypeId_1_Question24">Any Vehicle</string>
+    <string name="TypeId_1_Question25">Vehicle Number</string>
+    <string name="TypeId_1_Question26">Loan Purpose</string>
+    <string name="TypeId_1_Question27">Document Proof</string>
+    <string name="TypeId_1_Question28">Document Proof Details</string>
+
+    <!-- VerificationTypeId ==> 2 -->
+    <string name="TypeId_2_Question1">Office Traced</string>
+    <string name="TypeId_2_Question2">Office Board Seen</string>
+    <string name="TypeId_2_Question3">Met TPC Employee 1</string>
+    <string name="TypeId_2_Question4">Met TPC Employee 1 Designation</string>
+    <string name="TypeId_2_Question5">Met TPC Employee 2</string>
+    <string name="TypeId_2_Question6">Met TPC Employee 2 Designation</string>
+    <string name="TypeId_2_Question7">Company Exist Localty</string>
+    <string name="TypeId_2_Question8">Company Sector</string>
+    <string name="TypeId_2_Question9">Nature of Business</string>
+    <string name="TypeId_2_Question10">Office Area (Approx Sq.Fit)</string>
+    <string name="TypeId_2_Question11">ID Card Provided by Company</string>
+    <string name="TypeId_2_Question12">Premises owned</string>
+    <string name="TypeId_2_Question13">Applicant Available</string>
+    <string name="TypeId_2_Question14">Applicant Name</string>
+    <string name="TypeId_2_Question15">Applicant DOB</string>
+    <string name="TypeId_2_Question16">Applicant Qualification</string>
+    <string name="TypeId_2_Question17">Applicant Working Since in this office</string>
+    <string name="TypeId_2_Question18">Applicant designation</string>
+    <string name="TypeId_2_Question19">Applicant Total work Experience</string>
+    <string name="TypeId_2_Question20">Salary Approx per Month</string>
+    <string name="TypeId_2_Question21">Reporting Manager Name</string>
+    <string name="TypeId_2_Question22">Reporting Manager Designation</string>
+    <string name="TypeId_2_Question23">Applicant Work Roal</string>
+    <string name="TypeId_2_Question24">Applicant Last Worked Company Name</string>
+    <string name="TypeId_2_Question25">Applicant Last Worked Location</string>
+    <string name="TypeId_2_Question26">Applicant Last Worked Duration</string>
+    <string name="TypeId_2_Question27">Salary provided by</string>
+    <string name="TypeId_2_Question28">Employee Seen at office</string>
+    <string name="TypeId_2_Question29">No of Employee Seen</string>
+    <string name="TypeId_2_Question30">Employee Avedence Seen at Office</string>
+    <string name="TypeId_2_Question31">Landmark</string>
+
+    <!-- VerificationTypeId ==> 3 -->
+    <string name="TypeId_3_Question1">Business Location Traced</string>
+    <string name="TypeId_3_Question2">Business Board Seen</string>
+    <string name="TypeId_3_Question3">Met TPC Neighbour 1</string>
+    <string name="TypeId_3_Question4">Met TPC Neighbour 1 Address</string>
+    <string name="TypeId_3_Question5">Met TPC Neighbour 2</string>
+    <string name="TypeId_3_Question6">Met TPC Neighbour 2 Address</string>
+    <string name="TypeId_3_Question7">Business Exist Localty</string>
+    <string name="TypeId_3_Question8">Business Sector</string>
+    <string name="TypeId_3_Question9">Nature of Business</string>
+    <string name="TypeId_3_Question10">Business Area (Approx Sq.Fit)</string>
+    <string name="TypeId_3_Question11">ID Card Provided by Company</string>
+    <string name="TypeId_3_Question12">Business Premises</string>
+    <string name="TypeId_3_Question13">Met Persone Name</string>
+    <string name="TypeId_3_Question14">Met Persone Designation</string>
+    <string name="TypeId_3_Question15">Applicant Available</string>
+    <string name="TypeId_3_Question16">Applicant Name</string>
+    <string name="TypeId_3_Question17">Applicant DOB</string>
+    <string name="TypeId_3_Question18">Applicant Qualification</string>
+    <string name="TypeId_3_Question19">Applicant designation</string>
+    <string name="TypeId_3_Question20">Business Running Since in this office (Years)</string>
+    <string name="TypeId_3_Question21">App. Total Business Experience</string>
+    <string name="TypeId_3_Question22">Incomce Approx per Month</string>
+    <string name="TypeId_3_Question23">Employee Seen at office</string>
+    <string name="TypeId_3_Question24">No of Employee Seen</string>
+    <string name="TypeId_3_Question25">Company Salary provides</string>
+    <string name="TypeId_3_Question26">Business Avedence Seen</string>
+    <string name="TypeId_3_Question27">Stock Seen</string>
+    <string name="TypeId_3_Question28">Stock Store at other place</string>
+    <string name="TypeId_3_Question29">StockAddress</string>
+    <string name="TypeId_3_Question30">GST No</string>
+    <string name="TypeId_3_Question31">Landmark</string>
+    <string name="TypeId_3_Question32">Local Regd. Certificate</string>
+    <string name="TypeId_3_Question33">Current Account Bank Name</string>
+    <string name="TypeId_3_Question34">Current Account Bank Details</string>
+    <string name="TypeId_3_Question35">Number of Business Partner</string>
+    <string name="TypeId_3_Question36">Name of others Business Partner</string>
+
+    <string-array name="Yes_No_Na">
+        <item>Yes</item>
+        <item>No</item>
+        <item>NA</item>
+    </string-array>
+
+    <string-array name="Area">
+        <item>Commercial Area</item>
+        <item>Residencial Area</item>
+    </string-array>
+
+    <string-array name="Ownership">
+        <item>Parents</item>
+        <item>Owned</item>
+    </string-array>
+
+    <string-array name="Ownership1">
+        <item>Owned</item>
+        <item>Rented</item>
+    </string-array>
+
+    <string-array name="Relation">
+        <item>Father</item>
+        <item>SON</item>
+        <item>Daughter</item>
+        <item>Coggine</item>
+        <item>Ralative</item>
+    </string-array>
+
+    <string-array name="Vehicle">
+        <item>Car</item>
+        <item>Bike</item>
+        <item>Auto Ricsha</item>
+        <item>Bus</item>
+        <item>Truck</item>
+    </string-array>
+
+    <string-array name="Loan">
+        <item>Personal</item>
+        <item>House Renovation</item>
+        <item>Business Enhance</item>
+        <item>for Any Other Help</item>
+    </string-array>
+
+    <string-array name="Doc">
+        <item>UID</item>
+        <item>PAN</item>
+        <item>DL</item>
+        <item>VID</item>
+        <item>Passport</item>
+    </string-array>
+
+    <string-array name="Marital_Status">
+        <item>Single</item>
+        <item>Married</item>
+    </string-array>
+
+    <string-array name="Seen_notseen">
+        <item>Seen</item>
+        <item>Not Seen</item>
+    </string-array>
+
+    <string-array name="Locality_class">
+        <item>Upper Class</item>
+        <item>Middle Class</item>
+        <item>Low Class</item>
+    </string-array>
+
+    <string-array name="Board_seen">
+        <item>Yes - Fixed Board</item>
+        <item>Temlorly</item>
+        <item>No Board</item>
+    </string-array>
+
+    <string-array name="Work_roal">
+        <item>Fixed - On Roal</item>
+        <item>Off Roal</item>
+        <item>Templory</item>
+    </string-array>
+
+    <string-array name="SalaryBy">
+        <item>Bank Account</item>
+        <item>CASH</item>
+    </string-array>
+
+    <string-array name="attendence">
+        <item>Attendence Register</item>
+        <item>System Records</item>
+        <item>Salary Details</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="Applicant">
+        <item>Propriotor||</item>
+        <item>Directotrs</item>
+        <item>Partners</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

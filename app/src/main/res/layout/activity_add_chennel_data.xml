@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:layout_scrollFlags="scroll|enterAlways">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/size_8dp">
+
+                    <ImageView
+                        android:id="@+id/img_close"
+                        android:layout_width="@dimen/size_25dp"
+                        android:layout_height="@dimen/size_25dp"
+                        android:src="@drawable/ic_back_icon"
+                        app:tint="@color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="@dimen/size_16sp"
+                        android:layout_marginEnd="@dimen/size_16sp"
+                        android:layout_toRightOf="@+id/img_close"
+                        android:text="Profile"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_large" />
+
+
+                </RelativeLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <nl.dionsegijn.konfetti.KonfettiView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/celebration"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/normal_margin">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/extra_large_margin">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/imageBanner"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/size_120dp"
+                            android:layout_marginStart="@dimen/normal_margin"
+                            android:layout_marginTop="@dimen/normal_margin"
+                            android:layout_marginEnd="@dimen/normal_margin"
+                            android:background="@color/grey_2"
+                            android:elevation="@dimen/normal_margin"
+                            android:gravity="center"
+                            android:scaleType="centerCrop"
+                            app:shapeAppearanceOverlay="@style/RoundedSquare"
+                            tools:ignore="HardcodedText">
+
+                        </com.google.android.material.imageview.ShapeableImageView>
+
+
+                    </RelativeLayout>
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/channelImage"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/size_90dp"
+                        android:layout_marginBottom="@dimen/normal_margin"
+                        android:background="@color/white"
+                        android:elevation="@dimen/small_margin"
+                        android:gravity="center"
+                        android:scaleType="center"
+                        android:src="@drawable/ic_twotone_add_circle_24"
+                        app:shapeAppearanceOverlay="@style/Rounded"
+                        tools:ignore="HardcodedText" />
+
+
+                </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingHorizontal="@dimen/normal_margin">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/edFirstName"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size_8dp"
+                android:hint="Channel Name"
+                app:boxStrokeColor="@color/colorPrimary"
+                app:hintTextColor="@color/colorPrimary">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editChannelName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/edLastName"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size_8dp"
+                android:hint="Channel Pickup Line"
+                app:boxStrokeColor="@color/colorPrimary"
+                app:hintTextColor="@color/colorPrimary">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editChannelPickUpLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:inputType="textMultiLine"
+                    android:lines="2"
+                    android:maxLines="2" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/tvSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/large_margin"
+                android:background="@drawable/layout_curve_shape"
+                android:backgroundTint="@color/colorPrimary"
+                android:gravity="center"
+                android:padding="@dimen/large_margin"
+                android:text="Submit"
+                android:textColor="@color/text_color_white"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+
+            </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</layout>

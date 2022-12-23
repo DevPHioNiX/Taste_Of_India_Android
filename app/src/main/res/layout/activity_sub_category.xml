@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:elevation="@dimen/size_4dp">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolbar"
+                android:background="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:layout_scrollFlags="scroll|enterAlways">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/size_8dp"
+                        android:text="test"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size_16sp" />
+                </LinearLayout>
+            </com.google.android.material.appbar.MaterialToolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:background="@color/white"
+            android:id="@+id/rvmain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/large_margin">
+
+            <ImageView
+                android:id="@+id/ivback"
+                android:layout_width="@dimen/size_25dp"
+                android:layout_height="@dimen/size_25dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginHorizontal="@dimen/size_2dp"
+                android:src="@drawable/ic_back_icon" />
+
+
+            <TextView
+                android:id="@+id/tvCategoryName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginHorizontal="@dimen/normal_margin"
+                android:layout_toEndOf="@id/ivback"
+                android:text="My BookMark"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ivGridview"
+                android:layout_width="@dimen/size_25dp"
+                android:layout_height="@dimen/size_25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginHorizontal="@dimen/size_2dp"
+                app:tint="@color/grey_4" />
+
+            <ImageView
+                android:id="@+id/ivListview"
+                android:layout_width="@dimen/size_25dp"
+                android:layout_height="@dimen/size_25dp"
+                android:layout_marginHorizontal="@dimen/small_margin"
+                android:layout_toLeftOf="@id/ivGridview"
+                app:tint="@color/grey_4" />
+
+
+        </RelativeLayout>
+
+       <!-- <com.santalu.emptyview.EmptyView
+            android:id="@+id/empty_view_holding_doctors"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:ev_empty_backgroundColor="@color/white"
+
+            app:ev_empty_button="try again"
+            app:ev_empty_buttonBackgroundColor="@color/colorPrimary"
+            app:ev_empty_buttonTextColor="@color/white"
+            app:ev_empty_textColor="@color/white"
+            app:ev_empty_titleTextColor="@color/white"
+            app:ev_error_backgroundColor="@color/black"
+
+            app:ev_error_button="try again"
+            app:ev_error_buttonBackgroundColor="@color/colorPrimary"
+            app:ev_error_buttonTextColor="@color/white"
+            app:ev_error_textColor="@color/black"
+            app:ev_error_titleTextColor="@color/black"
+            app:ev_gravity="center"
+
+            app:ev_loading_drawableTint="@color/colorAccent"
+            app:ev_loading_title="@string/loading"
+            app:ev_loading_type="circular">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvCategory"
+                    android:layout_marginVertical="@dimen/normal_margin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/normal_margin"
+                    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" />
+
+
+            </LinearLayout>
+
+        </com.santalu.emptyview.EmptyView>-->
+
+        <com.mikelau.views.shimmer.ShimmerRecyclerViewX
+            android:id="@+id/shimmer_recycler_subcategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_3dp"
+            app:shimmer_demo_angle="20"
+            android:background="@color/white"
+            app:shimmer_demo_child_count="20"
+            app:shimmer_demo_grid_child_count="3"
+            app:shimmer_demo_layout_manager_type="linear_vertical"
+            app:shimmer_demo_mask_width="0.1"
+            android:layout_marginBottom="@dimen/space_16_dp"
+            />
+
+
+
+    </LinearLayout>
+
+</layout>

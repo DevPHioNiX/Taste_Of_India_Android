@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary">
+
+          <!--  <ImageView
+                android:layout_width="@dimen/size_200dp"
+                android:layout_height="@dimen/size_200dp"
+                android:layout_alignParentEnd="true"
+                android:alpha="0.5"
+                android:src="@drawable/round"
+                android:transformPivotX="@dimen/small_margin"
+                android:transformPivotY="@dimen/small_margin"
+                tools:ignore="RtlHardcoded" />
+
+            <ImageView
+                android:layout_width="@dimen/size_250dp"
+                android:layout_height="@dimen/size_250dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_app_icon" />
+
+            <TextView
+                android:id="@+id/getStarted"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginHorizontal="@dimen/both_side_margin"
+                android:layout_marginBottom="@dimen/size_30dp"
+                android:background="@drawable/ic_background_button"
+                android:visibility="gone"
+                android:gravity="center"
+                android:padding="@dimen/normal_margin"
+                android:text="@string/get_started"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_size_button" />-->
+
+            <ImageView
+                android:elevation="@dimen/size_20dp"
+                android:layout_width="match_parent"
+                android:adjustViewBounds="true"
+                android:layout_height="match_parent"
+                android:src="@drawable/app_new_logo"
+                android:padding="@dimen/size_80dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</layout>

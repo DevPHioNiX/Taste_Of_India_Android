@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:id="@+id/f1Fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/llbottommenu" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_above="@id/llbottommenu"
+            android:alpha="0.5"
+            android:background="@drawable/main_round_colorprimary" />
+
+
+        <LinearLayout
+            android:id="@+id/llbottommenu"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_60dp"
+            android:layout_alignParentBottom="true"
+            android:elevation="@dimen/large_margin"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/llHomeMenu"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <View
+                    android:id="@+id/viewHome"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginHorizontal="@dimen/large_margin"
+                    android:alpha="0.5"
+                    android:background="@drawable/home_line_colorprimary" />
+
+
+                <ImageView
+                    android:id="@+id/ivhome"
+                    android:layout_width="@dimen/size_20dp"
+                    android:layout_height="@dimen/size_20dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="@dimen/small_margin"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_home_icon" />
+
+                <TextView
+                    android:id="@+id/tvhome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ivhome"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Home"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_size_small" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/llSearch"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <View
+                    android:id="@+id/viewSearch"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginHorizontal="@dimen/large_margin"
+                    android:alpha="0.5"
+                    android:background="@drawable/home_line_colorprimary" />
+
+
+                <ImageView
+                    android:id="@+id/ivSearch"
+                    android:layout_width="@dimen/size_20dp"
+                    android:layout_height="@dimen/size_20dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="@dimen/small_margin"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_search_icon" />
+
+                <TextView
+                    android:id="@+id/tvSearch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ivSearch"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Search"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_size_small" />
+
+
+            </RelativeLayout>
+
+            <!--<LinearLayout
+                android:background="@drawable/layout_curve"
+                android:layout_margin="@dimen/small_margin"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="@dimen/button_size"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_round_add_circle_24"
+                    app:tint="@color/colorAccent" />
+
+            </LinearLayout>-->
+
+            <RelativeLayout
+                android:id="@+id/llSetting"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <View
+                    android:id="@+id/viewSetting"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginHorizontal="@dimen/large_margin"
+                    android:alpha="0.5"
+                    android:background="@drawable/home_line_colorprimary" />
+
+
+                <ImageView
+                    android:id="@+id/ivSetting"
+                    android:layout_width="@dimen/size_20dp"
+                    android:layout_height="@dimen/size_20dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="@dimen/small_margin"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_setting_icon" />
+
+                <TextView
+                    android:id="@+id/tvSetting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ivSetting"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Setting"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_size_small" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/llProfile"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <View
+                    android:id="@+id/viewProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginHorizontal="@dimen/large_margin"
+                    android:alpha="0.5"
+                    android:background="@drawable/home_line_colorprimary" />
+
+
+                <ImageView
+                    android:id="@+id/ivProfile"
+                    android:layout_width="@dimen/size_20dp"
+                    android:layout_height="@dimen/size_20dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="@dimen/small_margin"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_person_icon" />
+
+                <TextView
+                    android:id="@+id/tvProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ivProfile"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Profile"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_size_small" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</layout>

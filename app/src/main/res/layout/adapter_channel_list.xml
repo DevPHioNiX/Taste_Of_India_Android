@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--<androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardCornerRadius="@dimen/small_margin"
+        android:layout_margin="@dimen/size_10dp">
+
+        <LinearLayout
+            android:id="@+id/llCategorymain"
+            android:layout_width="130dp"
+            android:layout_height="@dimen/size_100dp"
+            android:background="@color/fieldBackground"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivCategoryImage"
+                android:layout_width="34dp"
+                android:layout_height="@dimen/size_40dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/heart" />
+
+            <TextView
+                android:id="@+id/ivCategoryName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="heart"
+                android:gravity="center"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_size_normal"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>-->
+
+    <LinearLayout
+        android:padding="@dimen/small_margin"
+        android:id="@+id/llCategorymain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transpar"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivchannelImage"
+            android:layout_width="@dimen/size_60dp"
+            android:layout_height="@dimen/size_60dp"
+            android:background="@color/white"
+            android:padding="@dimen/small_margin"
+            android:scaleType="centerInside"
+            android:gravity="center"
+            android:src="@drawable/app_new_logo"
+            app:shapeAppearanceOverlay="@style/Rounded"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_marginTop="@dimen/small_margin"
+            android:id="@+id/tvChannelName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:singleLine="true"
+            android:gravity="center"
+            android:textColor="@color/grey_6"
+            android:textSize="@dimen/text_size_normal" />
+
+
+    </LinearLayout>
+
+</layout>

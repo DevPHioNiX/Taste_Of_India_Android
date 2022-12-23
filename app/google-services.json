@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "314211411052",
+    "project_id": "testofindia-ae029",
+    "storage_bucket": "testofindia-ae029.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314211411052:android:0e9224ba4df022b81e2449",
+        "android_client_info": {
+          "package_name": "com.example.testofindia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314211411052-36drc1opmhtl7cmu1h0oi4tepl4okull.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzzu44L_6I0-fk5hYnPVtZfuVS3FSa19g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314211411052-36drc1opmhtl7cmu1h0oi4tepl4okull.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardCornerRadius="@dimen/small_margin"
+        android:layout_margin="@dimen/size_10dp">
+
+        <LinearLayout
+            android:id="@+id/llCategorymain"
+            android:layout_width="130dp"
+            android:layout_height="@dimen/size_100dp"
+            android:background="@color/fieldBackground"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivCategoryImage"
+                android:layout_width="34dp"
+                android:layout_height="@dimen/size_40dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/heart" />
+
+            <TextView
+                android:id="@+id/ivCategoryName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="heart"
+                android:gravity="center"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_size_normal"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>-->
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/small_margin"
+        android:layout_marginHorizontal="@dimen/normal_margin"
+        android:elevation="@dimen/size_2dp"
+        android:id="@+id/llCategorymain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box_shape"
+        android:gravity="center"
+        android:padding="@dimen/small_margin"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:adjustViewBounds="true"
+            android:id="@+id/ivCategoryImage"
+            android:layout_width="@dimen/size_80dp"
+            android:layout_height="@dimen/size_80dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/app_new_logo" />
+
+        <TextView
+            android:layout_marginVertical="@dimen/small_margin"
+            android:layout_marginHorizontal="@dimen/large_margin"
+            android:id="@+id/ivCategoryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="heart"
+            android:maxLines="2"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_normal"
+            />
+
+
+    </LinearLayout>
+
+</layout>

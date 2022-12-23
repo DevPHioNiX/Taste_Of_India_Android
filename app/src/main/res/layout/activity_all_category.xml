@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--    App Bar Start-->
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:elevation="@dimen/space_4_dp">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:layout_scrollFlags="scroll|enterAlways">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/size_8dp"
+                        android:layout_marginEnd="@dimen/size_8dp"
+                        android:text="Category"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_large" />
+                </LinearLayout>
+            </com.google.android.material.appbar.MaterialToolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <!--    App Bar End-->
+
+        <com.mikelau.views.shimmer.ShimmerRecyclerViewX
+            android:id="@+id/shimmer_recycler_all_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_3dp"
+            app:shimmer_demo_angle="20"
+            android:background="@color/white"
+            app:shimmer_demo_child_count="20"
+            app:shimmer_demo_grid_child_count="3"
+            app:shimmer_demo_layout_manager_type="linear_vertical"
+            app:shimmer_demo_mask_width="0.1"
+            android:layout_marginBottom="@dimen/space_16_dp"
+            />
+
+    </LinearLayout>
+
+</layout>
